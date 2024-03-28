@@ -1,0 +1,30 @@
+<html>
+<head>
+<h1> <center> LOGIN </center> </h1>
+</head>
+<body>
+
+<form action="action_page.php" method="post">
+
+  <center><div class="container">
+   <p><label for="uname"><b>Username</b></label></p>
+   <p> <input type="text" placeholder="Enter Username" name="uname" required></p>
+
+   <p> <label for="psw"><b>Password</b></label></p>
+  <p> <input type="password" placeholder="Enter Password" name="psw" required></p>
+
+    <button type="submit">Submit</button>
+   <p> <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label></p>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</center>
+</form>
+
+</body>
+</html>
